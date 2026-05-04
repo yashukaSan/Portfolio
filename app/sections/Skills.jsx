@@ -1,4 +1,4 @@
-import {CodeXml, Server, Layers, Database } from 'lucide-raect' 
+import {CodeXml, Server, Layers, Database } from 'lucide-react' 
 
 export default function Skills(){
     return (
