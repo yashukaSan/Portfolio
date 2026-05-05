@@ -10,7 +10,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <section>
+      <section className="grid gap-12 bg-black text-blue-200" >
         <Comp1 />
         <Comp2 />
         <Comp3 />
