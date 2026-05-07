@@ -9,24 +9,24 @@ export default function Hero(){
                         Software Developer{" "}
                     </span>
                 </div>
-                <p className="text-2xl p-2 font-semibold text-[#afafaf] leading-relaxed " >
+                <p className="text-3xl p-2 font-semibold text-[#afafaf] leading-relaxed " >
                     Crafting fluid digital experience with MongoDB, Express, React, and Node.js. Engineering scable solution with modern aesthetics.
                 </p>
                 <div className="m-12 flex gap-12" >
-                    <button className="border px-6 hover:bg-[#e9e9e9] focus:border-red-400 focus:text-purple-400 text-cyan hover:text-cyan-500 py-5 rounded-3xl font-bold bg-linear-to-tr from-cyan-400 via-[rgb(0,100,090)] to-cyan-500 text-2xl "> 
+                    <button className="border px-6 hover:bg-[#e9e9e9] focus:border-red-400 focus:text-purple-400 text-cyan py-5 rounded-3xl font-bold bg-linear-to-tr from-cyan-400 via-[rgb(0,100,090)] to-cyan-500 hover:bg-linear-to-tl hover:from-[rgb(0,200,090)] hover:via-green-800 hover:to-[rgb(0,200,090)] hover:translate-y-1 text-2xl hover:text-white "> 
                         View All Projects
                     </button>
-                    <button className="border px-8 rounded-3xl text-2xl">
+                    <button className="border px-8 rounded-3xl text-2xl hover:translate-y-1 hover:bg-white hover:text-black hover:font-bold">
                         Get In Touch
                     </button>
                 </div>
             </section>
             <section className="bg-[#102045] h-screen flex justify-center items-center " >
-                <div >
-                    <span className="flex justify-center text-4xl pt-12 font-bold text-cyan-400  " >
+                <div className=" " >
+                    <span className="flex border-b-5 justify-center animation duration-500 border-t-5 py-8 rounded-full border-sky-300  text-7xl pt-12 font-bold text-cyan-400  " >
                         INTRODUCTION
                     </span>
-                    <p className="bg-[#102045] border m-8 p-10 text-3xl font-semibold rounded-4xl text-slate-400 leading-relaxed " >
+                    <p className="bg-[#404040] animation duration-400 border-5 border-white my-8 mx-25 p-10 text-3xl font-semibold rounded-4xl text-slate-300 leading-relaxed " >
                         I build scalable maintainable web applications using React/Next.js and the 
                         PERN stack, with a focus on performance, accessibility, and clean component 
                         architecture. Recent projects include a Sales Analytics Platform optimized for large datasets, 
