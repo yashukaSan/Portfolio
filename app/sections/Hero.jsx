@@ -21,9 +21,12 @@ export default function Hero(){
                     </button>
                 </div>
             </section>
+
+            {/* Introduction section */}
+
             <section className="bg-[#102045] h-screen flex justify-center items-center " >
                 <div className=" " >
-                    <span className="flex border-b-5 justify-center animation duration-500 border-t-5 py-8 rounded-full border-sky-300  text-7xl pt-12 font-bold text-cyan-400  " >
+                    <span className="flex border-b-5 hover:shadow-xl hover:border-t-red-400 hover:shadow-red-400 justify-center animation duration-500 border-t-5 py-8 rounded-full border-sky-300  text-7xl pt-12 font-bold text-cyan-400  " >
                         INTRODUCTION
                     </span>
                     <p className="bg-[#404040] animation duration-400 border-5 border-white my-8 mx-25 p-10 text-3xl font-semibold rounded-4xl text-slate-300 leading-relaxed " >
