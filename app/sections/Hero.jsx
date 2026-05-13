@@ -24,25 +24,17 @@ export default function Hero(){
 
             {/* Introduction section */}
 
-            <section className="bg-[#102045] h-screen flex justify-center items-center " >
-                <div className=" " >
-                    <span className="flex border-b-5 hover:shadow-xl hover:border-t-red-400 hover:shadow-red-400 justify-center animation duration-500 border-t-5 py-8 rounded-full border-sky-300  text-7xl pt-12 font-bold text-cyan-400  " >
+            <section className="bg-[#102045] h-screen  flex justify-center items-center flex-col " >
+                    <span className="flex border-b-5 hover:border-b-0 hover:shadow-xl hover:border-t-red-600 hover:shadow-red-400 bg-clip-text hover:text-transparent bg-linear-to-br from-red-600 via-[#a800a8] to-pink-300 justify-center animation duration-500 border-t-5 px-18 py-8 lg:py-20 rounded-full border-sky-300 text-2xl lg:text-4xl xl:text-7xl pt-12 font-bold text-cyan-400  " >
                         INTRODUCTION
                     </span>
-                    <p className="bg-[#404040] animation duration-400 border-5 border-white my-8 mx-25 p-10 text-3xl font-semibold rounded-4xl text-slate-300 leading-relaxed " >
+                    <p className="bg-[#404040] animation duration-400 border-5 border-white my-8 mx-25 lg:p-10 p-8 text-sm lg:text-xl font-semibold rounded-4xl text-slate-300 leading-relaxed " >
                         I build scalable maintainable web applications using React/Next.js and the 
                         PERN stack, with a focus on performance, accessibility, and clean component 
                         architecture. Recent projects include a Sales Analytics Platform optimized for large datasets, 
                         Mini Laundry Order Management System in which users can order and track their clothes, also get 
                         their complete date.
                     </p>
-                </div>
-                <section>
-                    <div>
-                        
-                    </div>
-                    <div></div>
-                </section>
             </section>
         </section>
     )
